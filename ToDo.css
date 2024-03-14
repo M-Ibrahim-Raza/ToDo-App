@@ -1,0 +1,126 @@
+html, body {
+  height: 100%; 
+  margin: 0;
+  padding: 0; 
+}
+
+
+body {
+  background-image: url('Background.png');
+  background-size: cover; 
+  background-position: 100%; 
+  background-repeat: no-repeat; 
+  background-color: rgb(138, 191, 207); 
+}
+
+h1 {
+  text-align: center;
+  margin: 38px 0px 19px 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xxx-large;
+  color: rgb(22, 64, 214);
+  text-shadow: 2px 5px 0 rgb(0, 27, 121), 1px 4px 0 rgb(0, 27, 121), 1px 2px 0 rgb(0, 27, 121);
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xxx-large;
+  color: rgb(1, 31, 121);
+}
+
+#Task-Heading {
+  margin-left: 13%;
+  margin-right: 32%;
+}
+
+#Input-Section{
+  text-align: center;
+}
+
+#To-Do-Input {
+  text-align: center;
+  font-size: 81%;
+  height: 20px;
+  width: 40%;
+  font-family:'Gill Sans', sans-serif;
+  border-color: rgb(0, 27, 121);
+  color: rgb(56, 122, 223);
+  border-radius: 6px;
+}
+
+
+#Date-Input {
+  text-align: center;
+  font-size: 81%;
+  height: 22px;
+  width: 9%;
+  font-family:'Gill Sans', serif;
+  border-color: rgb(0, 27, 121);
+  color: rgb(56, 122, 223);
+  margin-right: 20px;
+  border-radius: 6px;
+}
+
+
+#Submit-Button {
+  margin-left: 11px;
+  width:90px;
+  font-size: 20px;
+  color: rgb(255, 32, 78);
+  background-color: rgb(174, 254, 255);
+  border-radius: 74px;
+  border-color: darkblue;
+  font-family: emoji;
+  height: 86px;
+  font-weight: bold;
+}
+
+.js-To-Do-Div {
+  text-align: center;
+  display: flex;
+}
+
+.js-To-Do {
+  font-family: system-ui;
+  border-radius: 4px;
+  height: 23px;
+  width: 70%;
+  border: 1px solid rgb(0, 27, 121);
+  color: rgb(1, 31, 121);
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.js-Date {
+  font-family: system-ui;
+  border-radius: 4px;
+  height: 23px;
+  width: 9%;
+  border: 1px solid rgb(0, 27, 121);
+  color: rgb(1, 31, 121);
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.js-Remove-Button {
+  margin-left: 23px;
+  width: 60px;
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #35858B;
+  border-radius: 74px;
+  border: 2px solid;
+  border-color: #910A67;
+  font-family: emoji;
+  height: 39px;
+  font-weight: 100;
+  margin-bottom: 16px;
+  margin-top: -7px;
+}
